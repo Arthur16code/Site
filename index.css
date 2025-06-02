@@ -1,8 +1,7 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
-    background-color: cornflowerblue;
-    height: 100vw;
+    background: fixed cornflowerblue;
 }
 
 h2{
@@ -15,8 +14,10 @@ a{
 }
 
 .container{
+    justify-content: space-evenly;
     background-color: skyblue;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     margin: 10px;
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
@@ -26,14 +27,36 @@ a{
     background-color: deepskyblue;
     border: 1px solid black;
     text-align: center;
-    flex: auto;
+    width: 40vw;
     margin: 10px;
     height: 100px;
     font-size: 1.5em;
     font-weight: 550;
+    padding: 10px;
 }
 
 i {
     float: right;
     margin-top: 10px;
+}
+
+.login{
+    justify-content: space-evenly;
+    background-color: skyblue;
+    display: flex;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+}
+
+#js {
+    background-color: yellow;
+}
+
+#html{
+    background-color: rgb(253, 182, 50);
+}
+
+#login{
+    background-color: rgb(162, 101, 219);
 }

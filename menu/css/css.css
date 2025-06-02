@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.code{
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+a > i {
+    color: black;
+}
+
+menu{
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+.menu {
+    text-align: center;
+}

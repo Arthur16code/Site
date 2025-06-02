@@ -23,6 +23,11 @@ a > i {
     color: black;
 }
 
-p{
+menu{
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+.menu {
     text-align: center;
 }
