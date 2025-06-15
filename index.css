@@ -1,8 +1,16 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
-    background: fixed cornflowerblue;
+    background: url(wallpaper004.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
+
+::-webkit-scrollbar{
+        background: url(wallpaper004.jpg);
+        background-position: center;
+    }
 
 h2{
     text-align: center;
@@ -27,7 +35,7 @@ a{
     background-color: deepskyblue;
     border: 1px solid black;
     text-align: center;
-    width: 40vw;
+    width: 35vw;
     margin: 10px;
     height: 100px;
     font-size: 1.5em;
@@ -59,4 +67,14 @@ i {
 
 #login{
     background-color: rgb(162, 101, 219);
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(72, 127, 228);
+    padding: 10px;
+    align-items: center;
+    flex-flow: row wrap;
+    border-radius: 5px;
+    margin: 10px;
 }
